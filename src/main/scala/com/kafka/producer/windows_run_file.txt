@@ -1,0 +1,4 @@
+zookeeper : zkServer
+Kafka : kafka-server-start.bat C:\kafka_2.12-2.0.0\kafka_2.12-2.0.0\config\server.properties
+SchemaRegistry : schema-registry-start.bat C:\confluentplatform-master\confluentplatform-master\etc\schema-registry\schema-registry.properties
+kafka-console-consumer: kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic nijavro --from-beginning
